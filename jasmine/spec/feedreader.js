@@ -13,7 +13,7 @@ $(function() {
     * a related set of tests. This suite is all about the RSS
     * feeds definitions, the allFeeds variable in our application.
     */
-    describe('RSS Feeds', function() { // A test suite to make sure that the allFeeds variable has been defined and that it is not empty.
+    describe('RSS Feeds', function() { 
        
         it('are defined', function() {
             expect(allFeeds).toBeDefined();
